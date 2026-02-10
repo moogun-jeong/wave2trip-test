@@ -1,2 +1,2 @@
-#wave2trip-test
-initial commit
+# wave2trip-test
+A simple HTML/JS/CSS starter template.
