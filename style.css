@@ -481,6 +481,18 @@ button {
     box-shadow: var(--glow);
 }
 
+.comments-section {
+    padding: 2.5rem 0 5rem;
+}
+
+.comments-section #disqus_thread {
+    background: var(--bg-elev);
+    border-radius: 24px;
+    padding: 1.8rem;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
 @keyframes fadeUp {
     from {
         opacity: 0;
