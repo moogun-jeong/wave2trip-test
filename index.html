@@ -1,14 +1,148 @@
-<!doctype html>
-<html lang="en">
+
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave2trip-test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="brand-mark">W</span>
+                <h1>Wave2trip-test</h1>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">여행지</a></li>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="다크 모드 전환">
+                    <span class="theme-toggle-label">라이트</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">현대 여행자를 위한 큐레이션</p>
+                    <h2>안녕하세요, 여행자님!</h2>
+                    <p class="hero-subtitle">다음 여정을 준비하세요. 영화 같은 풍경과 나만의 순간을 만날 수 있는 여행지를 소개합니다.</p>
+                    <div class="hero-actions">
+                        <button id="explore-button" class="btn-primary">여행지 둘러보기</button>
+                        <button class="btn-ghost">맞춤 일정 만들기</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-value">120+</span>
+                            <span class="stat-label">큐레이션 코스</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">48</span>
+                            <span class="stat-label">로컬 가이드</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">5.0</span>
+                            <span class="stat-label">여행자 평점</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <p class="card-title">다음 출발</p>
+                    <h3>교토, 일본</h3>
+                    <p class="card-subtitle">벚꽃 사원, 티 하우스, 야시장 산책.</p>
+                    <div class="card-meta">
+                        <span>7일</span>
+                        <span>소규모</span>
+                    </div>
+                    <button class="btn-secondary">일정 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-destinations">
+            <div class="container">
+                <div class="section-title">
+                    <h2>추천 여행지</h2>
+                    <p>문화, 미식, 자연이 균형 잡힌 목적지를 엄선했습니다.</p>
+                </div>
+                <div class="cards">
+                    <article class="destination-card">
+                        <img src="https://placehold.co/600x400" alt="파리 야경">
+                        <div class="card-body">
+                            <h3>파리, 프랑스</h3>
+                            <p>빛과 예술의 도시에서 봄 감성을 만끽하세요.</p>
+                            <div class="chip-row">
+                                <span class="chip">예술</span>
+                                <span class="chip">카페</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <img src="https://placehold.co/600x400" alt="벚꽃이 핀 교토 사원">
+                        <div class="card-body">
+                            <h3>교토, 일본</h3>
+                            <p>고즈넉한 사찰과 다도, 등불 산책이 기다립니다.</p>
+                            <div class="chip-row">
+                                <span class="chip">전통</span>
+                                <span class="chip">자연</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <img src="https://placehold.co/600x400" alt="그랜드 캐니언 일출">
+                        <div class="card-body">
+                            <h3>그랜드 캐니언, 미국</h3>
+                            <p>장대한 계곡과 황금빛 일출 하이킹을 경험해요.</p>
+                            <div class="chip-row">
+                                <span class="chip">모험</span>
+                                <span class="chip">트레일</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <img src="https://placehold.co/600x400" alt="포르투갈 해안">
+                        <div class="card-body">
+                            <h3>리스본, 포르투갈</h3>
+                            <p>언덕과 바다, 노을이 멋진 감성적인 도시.</p>
+                            <div class="chip-row">
+                                <span class="chip">감성</span>
+                                <span class="chip">해안</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="destination-card">
+                        <img src="https://placehold.co/600x400" alt="뉴질랜드 산맥">
+                        <div class="card-body">
+                            <h3>퀸스타운, 뉴질랜드</h3>
+                            <p>호수와 설산이 어우러진 액티비티 천국.</p>
+                            <div class="chip-row">
+                                <span class="chip">액티비티</span>
+                                <span class="chip">자연</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2024 Wave2trip-test. All rights reserved.</p>
+            <p class="footer-note">풍경을 더 사랑하는 여행자를 위해 만들었습니다.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
