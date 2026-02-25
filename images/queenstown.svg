@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe5d9" />
+      <stop offset="100%" stop-color="#f7f3ef" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <rect y="560" width="1200" height="240" fill="#cfe2da" />
+  <path d="M0 520 L220 340 L420 520 Z" fill="#7aa49a" />
+  <path d="M300 520 L520 300 L760 520 Z" fill="#6b9188" />
+  <path d="M640 520 L860 330 L1100 520 Z" fill="#7aa49a" />
+  <rect x="0" y="620" width="1200" height="70" fill="#8fc2b7" />
+  <rect x="0" y="690" width="1200" height="50" fill="#7bb1a6" />
+  <text x="60" y="740" font-family="Manrope, sans-serif" font-size="54" fill="#1b1b1b">QUEENSTOWN</text>
+</svg>

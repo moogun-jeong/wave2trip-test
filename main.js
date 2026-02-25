@@ -1,5 +1,4 @@
 
-const exploreButton = document.getElementById('explore-button');
 const themeToggle = document.getElementById('theme-toggle');
 const themeLabel = document.querySelector('.theme-toggle-label');
 const storageKey = 'traveler-theme';
@@ -22,15 +21,15 @@ const getPreferredTheme = () => {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 };
 
-applyTheme(getPreferredTheme());
+if (themeToggle && themeLabel) {
+    applyTheme(getPreferredTheme());
+}
 
-themeToggle.addEventListener('click', () => {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    const nextTheme = isDark ? 'light' : 'dark';
-    localStorage.setItem(storageKey, nextTheme);
-    applyTheme(nextTheme);
-});
-
-exploreButton.addEventListener('click', () => {
-    alert('Our destinations are coming soon! Stay tuned.');
-});
+if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        const nextTheme = isDark ? 'light' : 'dark';
+        localStorage.setItem(storageKey, nextTheme);
+        applyTheme(nextTheme);
+    });
+}

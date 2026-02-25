@@ -4,19 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wave2trip-test</title>
+    <title>Wave2trip 여행 블로그 | 감성 여행지 큐레이션</title>
+    <meta name="description" content="Wave2trip은 감성 여행지, 로컬 경험, 맞춤 일정 아이디어를 큐레이션하는 여행 블로그입니다. 파리, 교토, 그랜드 캐니언 등 추천 여행지를 한눈에 확인하세요.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://wave2trip-test.com/">
+    <meta name="theme-color" content="#f7f3ef">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wave2trip 여행 블로그 | 감성 여행지 큐레이션">
+    <meta property="og:description" content="감성 여행지, 로컬 경험, 맞춤 일정 아이디어를 큐레이션하는 여행 블로그. 여행지 추천과 여정 인사이트를 확인하세요.">
+    <meta property="og:url" content="https://wave2trip-test.com/">
+    <meta property="og:site_name" content="Wave2trip">
+    <meta property="og:image" content="https://placehold.co/1200x630?text=Wave2trip">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wave2trip 여행 블로그 | 감성 여행지 큐레이션">
+    <meta name="twitter:description" content="감성 여행지, 로컬 경험, 맞춤 일정 아이디어를 큐레이션하는 여행 블로그.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630?text=Wave2trip">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Organization",
+                    "@id": "https://wave2trip-test.com/#organization",
+                    "name": "Wave2trip",
+                    "url": "https://wave2trip-test.com/"
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://wave2trip-test.com/#website",
+                    "name": "Wave2trip 여행 블로그",
+                    "url": "https://wave2trip-test.com/",
+                    "publisher": {
+                        "@id": "https://wave2trip-test.com/#organization"
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
-<body>
+<body id="top">
+    <a class="skip-link" href="#main-content">본문 바로가기</a>
     <header class="site-header">
         <div class="container header-inner">
             <div class="brand">
                 <span class="brand-mark">W</span>
-                <h1>Wave2trip-test</h1>
+                <p class="brand-name">Wave2trip</p>
             </div>
             <nav class="site-nav">
                 <ul>
-                    <li><a href="#">홈</a></li>
+                    <li><a href="#top">홈</a></li>
                     <li><a href="#destinations">여행지</a></li>
                     <li><a href="#about">소개</a></li>
                     <li><a href="contact.html">문의</a></li>
@@ -30,15 +70,15 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <section class="hero">
             <div class="container hero-inner">
                 <div class="hero-copy">
                     <p class="eyebrow">현대 여행자를 위한 큐레이션</p>
-                    <h2>안녕하세요, 여행자님!</h2>
-                    <p class="hero-subtitle">다음 여정을 준비하세요. 영화 같은 풍경과 나만의 순간을 만날 수 있는 여행지를 소개합니다.</p>
+                    <h1>Wave2trip 여행 블로그: 감성 여행지와 큐레이션 일정</h1>
+                    <p class="hero-subtitle">다음 여정을 준비하세요. 영화 같은 풍경과 나만의 순간을 만날 수 있는 여행지와 로컬 경험을 소개합니다.</p>
                     <div class="hero-actions">
-                        <button id="explore-button" class="btn-primary">여행지 둘러보기</button>
+                        <a class="btn-primary" href="destinations.html">여행지 둘러보기</a>
                         <button class="btn-ghost">맞춤 일정 만들기</button>
                     </div>
                     <div class="hero-stats">
@@ -76,8 +116,8 @@
                     <p>문화, 미식, 자연이 균형 잡힌 목적지를 엄선했습니다.</p>
                 </div>
                 <div class="cards">
-                    <article class="destination-card">
-                        <img src="https://placehold.co/600x400" alt="파리 야경">
+                    <a class="destination-card" href="destinations.html#paris" aria-label="파리, 프랑스 상세 페이지로 이동">
+                        <img src="images/paris.svg" alt="파리 에펠탑 일러스트" loading="lazy" decoding="async" width="1200" height="800">
                         <div class="card-body">
                             <h3>파리, 프랑스</h3>
                             <p>빛과 예술의 도시에서 봄 감성을 만끽하세요.</p>
@@ -86,9 +126,9 @@
                                 <span class="chip">카페</span>
                             </div>
                         </div>
-                    </article>
-                    <article class="destination-card">
-                        <img src="https://placehold.co/600x400" alt="벚꽃이 핀 교토 사원">
+                    </a>
+                    <a class="destination-card" href="destinations.html#kyoto" aria-label="교토, 일본 상세 페이지로 이동">
+                        <img src="images/kyoto.svg" alt="벚꽃과 사찰이 있는 교토 일러스트" loading="lazy" decoding="async" width="1200" height="800">
                         <div class="card-body">
                             <h3>교토, 일본</h3>
                             <p>고즈넉한 사찰과 다도, 등불 산책이 기다립니다.</p>
@@ -97,9 +137,9 @@
                                 <span class="chip">자연</span>
                             </div>
                         </div>
-                    </article>
-                    <article class="destination-card">
-                        <img src="https://placehold.co/600x400" alt="그랜드 캐니언 일출">
+                    </a>
+                    <a class="destination-card" href="destinations.html#grand-canyon" aria-label="그랜드 캐니언, 미국 상세 페이지로 이동">
+                        <img src="images/grand-canyon.svg" alt="그랜드 캐니언 일출 풍경 일러스트" loading="lazy" decoding="async" width="1200" height="800">
                         <div class="card-body">
                             <h3>그랜드 캐니언, 미국</h3>
                             <p>장대한 계곡과 황금빛 일출 하이킹을 경험해요.</p>
@@ -108,9 +148,9 @@
                                 <span class="chip">트레일</span>
                             </div>
                         </div>
-                    </article>
-                    <article class="destination-card">
-                        <img src="https://placehold.co/600x400" alt="포르투갈 해안">
+                    </a>
+                    <a class="destination-card" href="destinations.html#lisbon" aria-label="리스본, 포르투갈 상세 페이지로 이동">
+                        <img src="images/lisbon.svg" alt="리스본 해안 도시 일러스트" loading="lazy" decoding="async" width="1200" height="800">
                         <div class="card-body">
                             <h3>리스본, 포르투갈</h3>
                             <p>언덕과 바다, 노을이 멋진 감성적인 도시.</p>
@@ -119,9 +159,9 @@
                                 <span class="chip">해안</span>
                             </div>
                         </div>
-                    </article>
-                    <article class="destination-card">
-                        <img src="https://placehold.co/600x400" alt="뉴질랜드 산맥">
+                    </a>
+                    <a class="destination-card" href="destinations.html#queenstown" aria-label="퀸스타운, 뉴질랜드 상세 페이지로 이동">
+                        <img src="images/queenstown.svg" alt="퀸스타운 산과 호수 일러스트" loading="lazy" decoding="async" width="1200" height="800">
                         <div class="card-body">
                             <h3>퀸스타운, 뉴질랜드</h3>
                             <p>호수와 설산이 어우러진 액티비티 천국.</p>
@@ -130,7 +170,7 @@
                                 <span class="chip">자연</span>
                             </div>
                         </div>
-                    </article>
+                    </a>
                 </div>
             </div>
         </section>
@@ -138,7 +178,7 @@
         <section id="about" class="about-section">
             <div class="container about-inner">
                 <div class="about-copy">
-                    <p class="eyebrow">Wave2trip-test 소개</p>
+                    <p class="eyebrow">Wave2trip 소개</p>
                     <h2>로컬의 깊이와 여행의 감성을 연결합니다.</h2>
                     <p class="hero-subtitle">우리는 단순한 관광을 넘어, 현지 사람과 공간의 이야기를 담은 여행을 만듭니다. 파트너와 함께 더 오래 기억될 여정을 기획합니다.</p>
                 </div>
@@ -172,7 +212,7 @@
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <p>&copy; 2024 Wave2trip-test. All rights reserved.</p>
+            <p>&copy; 2024 Wave2trip. All rights reserved.</p>
             <p class="footer-note">풍경을 더 사랑하는 여행자를 위해 만들었습니다.</p>
         </div>
     </footer>

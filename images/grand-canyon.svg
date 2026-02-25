@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe7b7" />
+      <stop offset="100%" stop-color="#f7f3ef" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <circle cx="200" cy="160" r="90" fill="#f0a261" opacity="0.9" />
+  <path d="M0 520 L260 360 L520 540 L760 380 L980 520 L1200 420 L1200 800 L0 800 Z" fill="#c0603a" />
+  <path d="M0 600 L260 460 L520 620 L760 460 L980 620 L1200 520 L1200 800 L0 800 Z" fill="#a84a2a" />
+  <rect x="0" y="680" width="1200" height="80" fill="#8b3a24" />
+  <text x="60" y="740" font-family="Manrope, sans-serif" font-size="54" fill="#1b1b1b">GRAND CANYON</text>
+</svg>

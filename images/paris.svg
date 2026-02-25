@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6d5e8" />
+      <stop offset="100%" stop-color="#f7f3ef" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <rect y="540" width="1200" height="260" fill="#e7d8cc" />
+  <circle cx="180" cy="150" r="90" fill="#f3a6b7" opacity="0.8" />
+  <path d="M600 120 L660 540 L540 540 Z" fill="#b14837" />
+  <rect x="560" y="540" width="80" height="140" fill="#8a3a2c" />
+  <rect x="300" y="420" width="140" height="180" fill="#e26d5a" />
+  <rect x="760" y="390" width="180" height="210" fill="#eaa38f" />
+  <rect x="0" y="620" width="1200" height="60" fill="#d9c7b9" />
+  <text x="60" y="740" font-family="Manrope, sans-serif" font-size="54" fill="#1b1b1b">PARIS</text>
+</svg>

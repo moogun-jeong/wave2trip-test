@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe9ff" />
+      <stop offset="100%" stop-color="#f7f3ef" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <rect y="520" width="1200" height="280" fill="#f1e2d4" />
+  <rect x="0" y="620" width="1200" height="80" fill="#b4d4e5" />
+  <rect x="120" y="380" width="200" height="180" fill="#f0a261" />
+  <rect x="360" y="340" width="240" height="220" fill="#e26d5a" />
+  <rect x="640" y="360" width="200" height="200" fill="#f0b98a" />
+  <rect x="880" y="320" width="220" height="240" fill="#e26d5a" />
+  <rect x="0" y="680" width="1200" height="60" fill="#9fc9dd" />
+  <text x="60" y="740" font-family="Manrope, sans-serif" font-size="54" fill="#1b1b1b">LISBON</text>
+</svg>

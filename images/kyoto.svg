@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd6e5" />
+      <stop offset="100%" stop-color="#f7f3ef" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)" />
+  <rect y="520" width="1200" height="280" fill="#e8dccf" />
+  <circle cx="980" cy="160" r="80" fill="#f6b7c8" opacity="0.8" />
+  <rect x="220" y="360" width="240" height="200" fill="#d6793f" />
+  <polygon points="200,360 340,260 480,360" fill="#b14837" />
+  <rect x="520" y="400" width="320" height="220" fill="#e26d5a" />
+  <polygon points="500,400 680,280 860,400" fill="#b14837" />
+  <rect x="0" y="620" width="1200" height="60" fill="#d9c7b9" />
+  <text x="60" y="740" font-family="Manrope, sans-serif" font-size="54" fill="#1b1b1b">KYOTO</text>
+</svg>

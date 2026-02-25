@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wave2trip-test.com/sitemap.xml
